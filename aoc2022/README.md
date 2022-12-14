@@ -2,4 +2,4 @@
 
 Lang: TS
 
-Link: [here](www.adventofcode.com)
+Link: [here](https://www.adventofcode.com)
