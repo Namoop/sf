@@ -49,9 +49,11 @@ const sand = (n: number) => {
 	return true;
 };
 
+const start = Date.now()
 let i = 0;
 while (sand(1)) i++;
 console.log(i);
 console.log("(add 1 if part 2)")
+console.log("time: " + (Date.now()-start))
 
 fs.writeFileSync(__dirname + "/out14.txt", map.map((a) => a.join("")).join("\n"));
